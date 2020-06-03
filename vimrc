@@ -45,6 +45,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+inoremap kj <Esc>
+cnoremap kj <Esc>
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
