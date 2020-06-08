@@ -48,6 +48,9 @@ nnoremap <C-H> <C-W><C-H>
 inoremap kj <Esc>
 cnoremap kj <Esc>
 
+"NerdTree
+map <C-n> :NERDTreeToggle<CR>
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
