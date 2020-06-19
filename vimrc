@@ -69,10 +69,17 @@ au BufNewFile,BufRead *.py
 
 " File indent for other extensions
 
-au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2
-    \| set softtabstop=2
-    \| set shiftwidth=2
+set expandtab       "Use softtabstop spaces instead of tab characters for indentation
+set shiftwidth=4    "Indent by 4 spaces when using >>, <<, == etc.
+set softtabstop=4   "Indent by 4 spaces when pressing <TAB>
+
+set autoindent      "Keep indentation from previous line
+set smartindent     "Automatically inserts indentation in some cases
+
+" au BufNewFile,BufRead *.js, *.html, *.css
+"     \ set tabstop=2
+"     \| set softtabstop=2
+"     \| set shiftwidth=2
 
 "Flag unnecessary white space
 
